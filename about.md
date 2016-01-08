@@ -9,7 +9,7 @@ Are you a woman* who loves programming and has been searching for a similar bunc
 
 *If you call yourself a woman, we do too! We don't care what's in your genes OR your jeans. Unless you're a robot, then we very much care and want you to join right away so we can pick your brain or... motherboard.
 
-**Or Python, Java, C, Perl, PHP, Haskell, Coq — we're language-agnostic!
+**Or Python, Java, C, Perl, Haskell, Bash, PHP, Coq — we're language-agnostic!
 
 ### What if I don’t code?
 
