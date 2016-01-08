@@ -1,0 +1,86 @@
+---
+# Main Styles: Variables and File Includes
+---
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900);
+
+/// Variables
+
+// Typography
+$base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+
+$base-font-size:   20px;
+$base-font-weight: 400;
+$base-line-height: 1.6;
+
+$font-size-1:      40px;
+$font-size-2:      32px;
+$font-size-3:      24px;
+$font-size-4:      22px;
+
+// Colors
+$black:                 #000;
+$white:                 #FFF;
+$text-color:            #F0F0F0;
+$background-color:      #222;
+$brand-color:           #00FF1A;
+$brand-color-secondary: #00FFFF;
+$grey-color:            #828282;
+$grey-color-light:      lighten($grey-color, 35%);
+$grey-color-dark:       darken($grey-color, 25%);
+
+
+// GRID variables from Twitter Bootstrap
+$grid-breakpoints: (
+  xs: 0,      // Extra small screen / phone
+  sm: 544px,  // Small screen / phone
+  md: 768px,  // Medium screen / tablet
+  lg: 992px,  // Large screen / desktop
+  xl: 1200px  // Extra large screen / wide desktop
+) !default;
+$container-max-widths: (
+  sm: 576px,
+  md: 720px,
+  lg: 940px,
+  xl: 1140px
+) !default;
+$enable-flex:               false !default;
+$enable-grid-classes:       true !default;
+$grid-columns:              12 !default;
+$grid-gutter:               30px !default;
+
+
+/// Vendor Prefixed Mixins
+
+// Transition
+@mixin transition ($attrs) {
+  -webkit-transition: $attrs;
+     -moz-transition: $attrs;
+      -ms-transition: $attrs;
+       -o-transition: $attrs;
+          transition: $attrs;
+}
+// Transform
+@mixin transform ($attrs) {
+  -webkit-transform: $attrs;
+     -moz-transform: $attrs;
+      -ms-transform: $attrs;
+       -o-transform: $attrs;
+          transform: $attrs;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "reset",
+  "breakpoints",
+  "base",
+  "grid",
+  "typography",
+  "images",
+  "buttons",
+  "header",
+  "footer",
+  "sections",
+  "article",
+  "syntax-highlighting"
+;

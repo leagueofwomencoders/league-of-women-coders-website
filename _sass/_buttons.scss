@@ -1,0 +1,23 @@
+/// Buttons
+
+.btn {
+  display: inline-block;
+  padding: $grid-gutter/3 $grid-gutter;
+  overflow: hidden;
+  background: $brand-color-secondary;
+  border: none;
+  color: $background-color;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+    -moz-user-select:    none;
+    -webkit-user-select: none;
+  user-select:           none;
+}
+.btn:hover,
+.btn:focus {
+  background: $brand-color;
+  border: none;
+}

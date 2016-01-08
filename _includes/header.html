@@ -1,0 +1,29 @@
+<header class="site-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8">
+        <a class="site-logo" href="{{ site.baseurl }}/">
+          <span>League of Women Coders</span>
+        </a>
+      </div> <!-- .col -->
+
+      <!-- No JS mobile menu toggle -->
+      <label for="menu-toggle" class="menu-label">&#x2261;</label>
+      <input type="checkbox" id="menu-toggle" />
+
+      <nav class="site-nav col-xs-12 col-lg-4" id="menu">
+        <ul>
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+              <li>
+                <a href="{{ my_page.url | prepend: site.baseurl }}">
+                  {{ my_page.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav> <!-- .col -->
+    </div> <!-- .row -->
+  </div> <!-- .container -->
+</header>

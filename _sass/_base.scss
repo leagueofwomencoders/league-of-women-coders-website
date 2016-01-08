@@ -1,0 +1,25 @@
+/// Base
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: $background-color;
+}
+
+/// Layout
+.push-top {
+  margin-top: $grid-gutter;
+}
+.push-top-half {
+  margin-top: $grid-gutter/2;
+}
+.sm-push-top {
+  @include media-breakpoint-down(sm) {
+    margin-top: $grid-gutter;
+  }
+}
+.grid-center {
+  margin-left:  auto;
+  margin-right: auto;
+}

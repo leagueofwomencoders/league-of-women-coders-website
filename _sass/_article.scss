@@ -1,0 +1,23 @@
+/// Article
+article p,
+article ol,
+article ul,
+article img,
+article figure,
+article blockquote {
+  margin-bottom: 1em;
+}
+article h3 {
+  margin: 1em 0 0.25em;
+}
+article :last-child {
+  margin-bottom: 0;
+}
+article ul {
+  padding-left: $grid-gutter;
+  list-style: disc;
+}
+article ol {
+  padding-left: $grid-gutter;
+  list-style: decimal;
+}
