@@ -4,12 +4,19 @@ title: About
 permalink: /about/
 ---
 
+League of Women Coders is a grassroots collective that focusses on coding, hacking, and learning together. We're like a book club for superhero women coders. You'll find us championing free software, debating the best uses for ternary operators, defending against trolls, sharing what we know, and supporting each other in every way we can.
 
-Are you a woman* who loves programming and has been searching for a similar bunch of ladies to eat cupcakes and discuss code with? Are you happier discussing Ruby** than rubies over coffee? If so, you’ve come to the right place! We meet at least once a month to hack on projects, give casual 5-minute lightning talks, ask all of our technical questions, and toss around ideas together. It's a great way to make new friends, and to bounce ideas off each other to keep improving our coding skills. Think of it as a book club for coders. We usually have tasty treats of the baked variety and pizza for all of your om-ing and nom-ing needs. We'd also love to bring in some interesting lady speakers, so let us know if you have anything you'd like to hear or talk about!
+### Who should come?
+
+Are you a woman* who loves programming and has been searching for a similar bunch of ladies to eat cupcakes and discuss code with? Are you happier discussing Ruby** than rubies over coffee? If so, you’ve come to the right place!
 
 *If you call yourself a woman, we do too! We don't care what's in your genes OR your jeans. Unless you're a robot, then we very much care and want you to join right away so we can pick your brain or... motherboard.
 
 **Or Python, Java, C, Perl, Haskell, Bash, PHP, Coq — we're language-agnostic!
+
+### What are your meetups like?
+
+We meet at least once a month to hack on projects, give casual 5-minute lightning talks, ask all of our technical questions, and toss around ideas together. It's a great way to make new friends, and to bounce ideas off each other to keep improving our coding skills. We usually have tasty treats of the baked variety and pizza for all of your om-ing and nom-ing needs. We also love to bring in interesting lady speakers, so let us know if you have anything you'd like to hear or talk about!
 
 ### What if I don’t code?
 
@@ -25,7 +32,7 @@ Yes. If you are a man who is interested in supporting women in tech, please send
 
 ### Do you take donations?
 
-Nope. We do this out of love for our community of lady geeks and we think money only complicates things. We do encourage you to volunteer your time at any local organizations that support underrepresented groups in tech or contribute to open source projects.
+Nope. We do this out of love for our community of lady geeks and we think money only complicates things. No money will ever be exchanged here, by anyone. We do encourage you to volunteer your time at any local organizations that support underrepresented groups in tech or contribute to open source projects.
 
 ### Interested in sending a community event our way?
 [Please read our policy.](http://www.meetup.com/Ladies-Who-Code/pages/Community_Event_Policy/)
