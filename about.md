@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-League of Women Coders is a grassroots collective that focusses on coding, hacking, and learning together. We're like a book club for superhero women coders. You'll find us championing free software, debating the best uses for ternary operators, defending against trolls, sharing what we know, and supporting each other in every way we can.
+League of Women Coders (formerly [Ladies Who Code](http://www.ladieswhocode.com/), est. June 2011) is a grassroots collective that focusses on coding, hacking, and learning together. We're like a book club for superhero women coders. You'll find us championing free software, debating the best uses for ternary operators, defending against trolls, sharing what we know, and supporting each other in every way we can.
 
 ### Who should come?
 
